@@ -4,7 +4,7 @@ class Avatar extends Component {
   render() {
     return (
       <div>
-      <img src='focaccia.jpg' alt='Image'/>
+      <img className='avatar' src='focaccia.jpg' alt='Image'/>
       </div>
     )
   }
