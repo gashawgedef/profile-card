@@ -5,10 +5,14 @@ import Skill from './Skill';
   
   render() {
     return (
-      <div>
-       <Skill/>
-       <Skill/>
-       <Skill/>
+      <div className='skill-list'>
+       <Skill skill='React' emoji='💪' color='#123456'/>
+       <Skill skill='Angular' emoji='🏆'  color='orangered'/>
+       <Skill skill='Next Js' emoji='💪'  color='yellow'/>
+       <Skill skill='Cakephp' emoji='🏆'  color='orange'/>
+       <Skill skill='Kubernates Services' emoji='💪'  color='cyan'/>
+       <Skill skill='Java' emoji='🏆'  color='violet'/>
+   
       </div>
     )
   }
