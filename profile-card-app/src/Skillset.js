@@ -1,10 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Skill from './Skill';
 
  class Skillset extends Component {
+  
   render() {
     return (
       <div>
-        Hello Skill set
+       <Skill/>
+       <Skill/>
+       <Skill/>
       </div>
     )
   }
